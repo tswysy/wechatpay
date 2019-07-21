@@ -26,6 +26,8 @@ type UnitOrder struct {
 	FeeType        string `xml:"fee_type"`
 	Openid         string `xml:"openid"`
 	Referer        string
+	TimeStart      string `xml:"time_start"`
+	TimeExpire     string `xml:"time_expire"`
 }
 
 //统一下单返回参数
